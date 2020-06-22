@@ -64,7 +64,7 @@ var handler = function () {
   });
 
   $(".web .project__btn").mouseleave(function () {
-    objCar.playbackRate -= 50;
+    objCar.playbackRate -= 2;
   });
 };
 $(window).bind("load", handler);
