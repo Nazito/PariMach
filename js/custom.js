@@ -60,7 +60,6 @@ var handler = function () {
 
   $(".web .project__btn").mouseenter(function () {
     setTimeout(function () {}, 500);
-    console.log(objCar.playbackRate);
     objCar.playbackRate = 0.5;
   });
 
